@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-menu {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.nav-link:hover {
+    color: rgba(255,255,255,.75) !important;
+}
+
+.logo h3 {
+    color: #ffffff;
+    font-size: 1.375rem;
+}
+
+.btn {
+    color: #ffffff;
+    background: #21c87a;
+    font-size: .6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1.2rem 2.7rem;
+    border: 0.1rem solid transparent;
+    letter-spacing: .5px;
+    border-radius: 75px;
+}
+
+.btn:hover {
+    background: #253443 !important;
+    color: #ffffff;
+}
+
+/*##### HERO #####/*/
+
+#hero {
+    background: url("https://www.abd.org.uk/wp-content/uploads/2019/01/trainline.jpeg")no-repeat center / cover fixed;
+    height: 450px;
+    padding: 180px 0px;
+
+}
+
+.text-hero h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.text-hero p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+/*####  PLAN   ####*/
+
+#plan {
+    padding: 7.5rem 0;
+}
+
+.title-process {
+    text-align: center;
+}
+
+.subtitle-process {
+    color: #6C757D;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.plan-box {
+    border: 1px solid #EEEEEE;
+    padding: 60px;
+    transition: .8s;
+}
+
+.plan-box:hover {
+    background: #000000;
+}
+
+.plan-box:hover .price-block, .plan-box:hover h3 {
+    color: #ffffff;
+}
+
+.plan-box:hover .price-list li {
+    color: #EEEEEE;
+}
+
+.plan-box:hover .green {
+    background: #FFFFFF;
+    color: #000000;
+    border: 2px solid #21c87a;
+}
+
+.green:hover {
+    background: #ffffff !important;
+}
+
+.plan-box h3 {
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529;
+}
+
+.price-block {
+    margin: 20px 0px 30px;
+}
+
+.price-block h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.price-block small {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    top: 20px;
+    left: -9px;
+}
+
+.price-block span {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.price-list li {
+    display: block;
+    font-size: 16px;    
+    padding: 5px 0px;
+    position: relative;
+    padding-left: 30px;
+    color: #6c757d; ;
+}
+
+.price-list {
+    margin: 30px 0px 50px;
+    padding: 0;
+}
+
+.price-list li:before {
+    content: "\f05d";
+    position: absolute;
+    font-family: "Font Awesome";
+    left: 0;
+}
+
+.plan-btn {
+    background: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+/*####  / PLAN   ####*/
+
+
+/*/#################################### TESTIMONIAL #################################/*/
+
+#testimonial {
+    background: #EEEEEE;
+    padding: 7.5rem 0;
+}
+
+.testimonial-box h1 {
+    font-size: 2.125rem;
+    line-height: 40px;
+    margin-bottom: .5rem;
+    color: #212529;
+    font-weight: 700;
+}
+
+.testimonial-box p {
+    margin-bottom: 0;
+    color: #6c757d;
+}
+
+.test-inner {
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    border-top-right-radius: 35px;
+    margin-bottom: 25px;
+    transition: all .7s ease;
+}
+
+.test-inner:hover {
+    transform: scale(1.1);
+    box-shadow: 0 7px 22px rgb(0 0 0 / 8%);
+}
+
+.test-inner p {
+    color: #6c757d;
+    margin: 0;
+}
+
+.test-inner i {
+    font-size: 60px;
+    opacity: .09;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    color: #6c757d;
+}
+
+.author {
+    margin-bottom: 15px;
+}
+
+.author img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 1px dotted #ddd;
+    padding: 5px;
+}
+
+.author-info {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.author-info h4 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529;
+}
+
+.author-info h6 {
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529;
+}
+
+
+/*/#################################### TESTIMONIAL #################################/*/
+
+footer {
+    padding: 80px;
+    background: url('../images/10.jpg') no-repeat center / cover;
+    position: relative;
+    z-index: 999;
+}
+
+footer:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: .93;
+    z-index: -1;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.footer-logo {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.footer-widget p {
+    color: #888;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.footer-widget h3 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 1.375rem;
+}
+
+.footer-widget ul {
+    padding: 0;
+}
+
+.footer-widget li {
+    display: block;
+}
+
+.footer-widget ul li a {
+    display: block;
+    color: #888;
+    line-height: 38px;
+    font-size: 14px;
+    text-transform: Capitalize;
+}
+
+.footer-widget li a i {
+    width: 25px;
+}
+
+.company p {
+    color: #888;
+    font-size: 16px;
+    position: relative;
+    float: right;
+}
+
+.company p span {
+    color: #21c87a;
+}
+
+/*/#################################### FOOTER #################################/*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

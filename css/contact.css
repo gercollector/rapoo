@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#nav-menu {	
+    background: url(https://images.vanityfair.it/gallery/99201/Big/56aeea55-73f7-49f1-aef4-12d2920a74fd.jpeg)no-repeat center/cover fixed;
+	z-index: 999;	
+	content: "";
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 90%;
+	z-index:-1;
+}	
+
+a {
+    text-decoration: none;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.nav-link {
+    color: #fff	 !important;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.nav-link:hover {
+    color: rgba(255,255,255,.75) !important;
+}
+.nav-title{
+    padding: 180px 0 0;
+	text-align: center !important;
+	color: #fff ;
+}
+.nav-subtitle{
+    padding: 0 0 180px;
+	text-align: center !important;
+	padding-top: 10px;
+	color: #fff;
+}
+#hero{
+    padding: 180px 0px;
+    text-align: center;
+}
+
+.icon{
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: block;
+    color: #21c87a;
+    
+}
+input{
+  margin-top: 50px;
+  height: 45px;
+     width: 100%;
+    margin-bottom: 1rem;
+}
+.input-2{
+    height: 45px;
+     width: 45%;
+     margin-top: -200px;
+}
+.btn {
+    color: #000;
+    background: #21c87a;
+    font-size: .6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1.2rem 2.7rem;
+    border: 0.1rem solid transparent;
+    letter-spacing: .5px;
+    border-radius: 75px;
+    margin-top: 100PX;
+}
+
+.btn:hover {
+    background: #000 !important;
+    color: #ffffff;
+}
+footer {
+    padding: 80px;
+    background: url('../images/10.jpg') no-repeat center / cover;
+    position: relative;
+    z-index: 999;
+}
+
+footer:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: .93;
+    z-index: -1;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.footer-logo {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.footer-widget p {
+    color: #888;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.footer-widget h3 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 1.375rem;
+}
+
+.footer-widget ul {
+    padding: 0;
+}
+
+.footer-widget ul li a {
+    display: block;
+    color: #888;
+    line-height: 38px;
+    font-size: 14px;
+    text-transform: Capitalize;
+}
+
+.footer-widget li a i {
+    width: 25px;
+}
+
+.company p {
+    color: #888;
+    font-size: 16px;
+    position: relative;
+    float: right;
+}
+
+.company p span {
+    color: #21c87a;
+}

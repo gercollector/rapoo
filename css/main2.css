@@ -1,0 +1,772 @@
+body{
+	font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    line-height: 1.75;
+    margin: 0;
+    text-align: left;
+    background-color: #fff;
+    font-weight: 400;
+    color: #6c757d;
+}
+a{
+	text-decoration: none;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.about-us {
+    background: #232323;
+}
+
+.place i {
+    color: #fff;
+}
+
+.place a {
+    margin-left: 8px;
+    color: #fff;
+}
+
+.icons {
+    float: right;
+}
+
+.icons a {
+    display: inline-block;
+    color: #21c87a;
+    padding: 8px;
+}
+.logo-block{
+	padding: 30px 0 60px;
+	background-color: #f8f9fa;
+}
+
+
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	 
+}
+
+.info-block {
+	display: flex;
+}
+
+.info-list{
+	display: flex;
+	align-items: center;
+	margin-left:30px;
+}
+
+
+.info-icon {
+	margin-right: 20px;
+	color:#21c87a ;
+	font-size: 40px;
+	font-weight: 400;
+
+}
+
+.contacts a {
+	margin: 0;
+}
+
+.contacts p:last-child{
+	margin-top: -20px;
+	color:#6c757d;
+}
+
+
+/*/################## LOGO BLOCK #############################/*/
+
+/*/################## NAV BLOCK #############################/*/
+
+#nav-menu{
+	margin-top: -40px;
+}
+
+
+.navbar-collapse{
+justify-content: space-between;
+}
+
+
+.navbar{
+
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+.bg-light{
+	background: #21c87a !important;
+}
+
+.nav-link{
+	color: #fff !important;
+	font-weight: 700;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	padding-right: 1rem !important;
+	padding-left: 1rem !important;
+}
+.nav-link:hover{
+color: rgba(255,255,255,.75)!important;
+}
+
+
+.btn{
+	color: #000000;
+	background: #ffffff;
+	font-size: .6875rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 1.2rem 2.7rem;
+	border: 0.1rem solid transparent;
+	letter-spacing: .5px;
+	border-radius: 75px;
+}
+
+.btn:hover{
+	background:#21c87a !important;
+	color: #ffffff;
+}
+#hero{
+	margin-top: -45px;
+	background: url(https://upalanie.pl/wp-content/uploads/2019/08/thumb-1920-944703.jpg)no-repeat center/cover fixed;
+	height: 100vh; 
+}
+
+.text {
+    padding: 150px 0px;
+    padding-right: 190px;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+.display-4{
+	font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.mb-4{
+	margin-top: -1px;
+	color: #fff;
+	font-size: 1.0625rem;
+}
+.input{
+	height:auto;
+    border: 1px solid #ced4da;	
+}
+input:hover{
+	border-color: #21c87a;
+    box-shadow: none;
+    border: 1px solid #21c87a;
+}
+.bg-white{
+	background-color: #fff!important;
+	padding: 45px 40px;
+    margin-top: 220px;
+}
+input{
+	   padding: .375rem .75rem;
+	height: 45px;
+	 width: 100%;
+	margin-bottom: 1rem;
+
+}
+.primary{
+	color: #000000;
+	background: #21c87a;
+}
+.primary:hover{
+	background:#000 !important;
+	color: #ffffff;
+}
+.title{
+	margin-top: 15px;
+
+}
+.circled{
+	color: #ffffff;
+	width: 100%;
+	background: #343a40;
+
+}
+
+.circled:hover{
+	color: #ffffff;
+
+}
+
+
+
+/*#################################### PROCESS #################################*/
+
+#process {
+    padding: 7.5rem 0;
+}
+
+.text-process {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.title-process {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.subtitle-process {
+    margin: 0;
+    color: #6c757d;
+}
+
+.box-process {
+    text-align: center;
+}
+
+.box-process img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.grid-title {
+    font-weight: 700;
+    font-size: 1.375rem;
+    margin-bottom: 15px;
+}
+
+.grid-description {
+    font-size: 15px;
+    color: #6c757d;
+}
+
+/*#################################### PROCESS #################################*/
+
+
+
+/*#################################### WEB #################################*/
+
+#web {
+    padding: 7.5rem 0;
+    background: url("https://pbs.twimg.com/media/EZf-2ZGWoAAHHVA.jpg:large") no-repeat center / cover fixed;
+    position: relative;
+    z-index: 999;
+}
+
+#web:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(30deg, rgba(151, 37, 255, 0.85) 0%, rgba(0, 58, 80, 0.55) 100%);
+    z-index: -1;
+}
+
+.web-title, .web-subtitle {
+    color: #FFFFFF;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.web-box {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 35px 30px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.web-box:hover {
+    background: #FFFFFF;
+}
+
+.web-box:hover i {
+    color: #6b3fb2;
+}
+
+.web-box:hover h3, .web-box:hover p {
+    color: #000000;
+}
+
+.web-icon i {
+    font-size: 70px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.icon-subtitle {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #ffffff;
+}
+
+.icon-description {
+    margin: 15px 0 0;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/*#################################### WEB #################################*/
+
+
+
+/*#################################### Like #################################*/
+
+#like {
+    padding: 7.5rem 0;
+    background: #e6e6e6;
+}
+
+.like-img img {
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #ffffff;
+}
+
+.like-box {
+    padding-top: 4.5rem;
+}
+
+.icon-box {
+    text-align: center;
+}
+
+.icon-block i {
+    z-index: 2;
+    margin-bottom: 1.5rem;
+    font-size: 58px;
+    color: #6c757d;
+}
+
+.icons-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.icons-subtitle {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #6c757d;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+/*#################################### Like #################################*/
+
+
+/*#################################### PLAN #################################*/
+
+#plan {
+    padding: 7.5rem 0;
+}
+
+.plan-box {
+    border: 1px solid #EEEEEE;
+    padding: 60px;
+    transition: .8s;
+}
+
+.plan-box:hover {
+    background: #000000;
+}
+
+.plan-box:hover .price-block, .plan-box:hover h3 {
+    color: #ffffff;
+}
+
+.plan-box:hover .price-list li {
+    color: #EEEEEE;
+}
+
+.plan-box:hover .green {
+    background: #FFFFFF;
+    color: #000000;
+    border: 2px solid #21c87a;
+}
+
+.green:hover {
+    background: #ffffff !important;
+}
+
+.plan-box h3 {
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529;
+}
+
+.price-block {
+    margin: 20px 0px 30px;
+}
+
+.price-block h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.price-block small {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    top: 20px;
+    left: -9px;
+}
+
+.price-block span {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.price-list li {
+    display: block;
+    font-size: 16px;    
+    padding: 5px 0px;
+    position: relative;
+    padding-left: 30px;
+    color: #6c757d; ;
+}
+
+.price-list {
+    margin: 30px 0px 50px;
+    padding: 0;
+}
+
+.price-list li:before {
+    content: "\f05d";
+    position: absolute;
+    font-family: "Font Awesome";
+    left: 0;
+}
+
+.plan-btn {
+    background: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+
+/*#################################### PLAN #################################*/
+
+
+/*#################################### TEXT #################################*/
+
+
+.text-box h1 {
+    margin-bottom: 80px;
+    font-size: 2.155rem;
+    line-height: 40px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.text-box p {
+    font-size: 1.0625rem;
+    font-weight: 300;
+    color: #6c757d;
+}
+
+/*#################################### TEXT #################################*/
+
+
+/*#################################### GRID IMAGES #################################*/
+
+#grid-images {
+    padding-bottom: 8.125rem;
+}
+
+.grid-box-img {
+    position: relative;
+    border: 5px solid #FFFFFF;
+}
+
+.grid-box-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.img-content {
+    opacity: 0;
+    position: absolute;
+    content: "";
+    bottom: 20px;
+    width: 100%;
+    left: 30px;
+    padding: 30px 20px;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 300ms ease-in-out;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.grid-box-img:hover .img-content{
+    opacity: 1;
+    visibility: visible;
+}
+
+.img-content i {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 16px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: -23px;
+    background: #21c87a;
+    color: #fff;    
+}
+
+.img-content h5 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 10px 0 0;
+    color: #212529;
+}
+
+.img-content p {
+    color: #6c757d;
+    margin: 0;
+}
+
+/*#################################### GRID IMAGES #################################*/
+
+
+/*#################################### TESTIMONIAL #################################*/
+
+#testimonial {
+    background: #EEEEEE;
+    padding: 7.5rem 0;
+}
+
+.testimonial-box h1 {
+    font-size: 2.125rem;
+    line-height: 40px;
+    margin-bottom: .5rem;
+    color: #212529;
+    font-weight: 700;
+}
+
+.testimonial-box p {
+    margin-bottom: 0;
+    color: #6c757d;
+}
+
+.test-inner {
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    border-top-right-radius: 35px;
+    margin-bottom: 25px;
+    transition: all .7s ease;
+}
+
+.test-inner:hover {
+    transform: scale(1.1);
+    box-shadow: 0 7px 22px rgb(0 0 0 / 8%);
+}
+
+.test-inner p {
+    color: #6c757d;
+    margin: 0;
+}
+
+.test-inner i {
+    font-size: 60px;
+    opacity: .09;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    color: #6c757d;
+}
+
+.author {
+    margin-bottom: 15px;
+}
+
+.author img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 1px dotted #ddd;
+    padding: 5px;
+}
+
+.author-info {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.author-info h4 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529;
+}
+
+.author-info h6 {
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529;
+}
+
+
+/*#################################### TESTIMONIAL #################################*/
+
+
+
+/*#################################### NEWS #################################*/
+
+#news {
+    padding: 7.5rem 0;
+}
+
+.news-img img {
+    border-radius: 5px;
+    box-shadow: 0 7px 12px rgb(0 0 0 / 8%);
+}
+
+.news-content {
+    padding-top: 25px;
+}
+
+.news-content h6 {
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529;
+}
+
+.news-content a h3 {
+    transition: all .3s ease 0s;
+    margin: 15px 0px;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529;
+}
+
+.news-content:hover h3 {
+    color: #21c87a;
+}
+
+.news-content p {
+    margin: 20px 0px;
+    color: #6c757d;
+}
+
+.read-more {
+    color: #21c87a;
+    font-size: 15px;
+}
+
+/*#################################### NEWS #################################*/
+
+
+/*#################################### FOOTER #################################*/
+
+footer {
+    padding: 80px;
+    background: url('../images/10.jpg') no-repeat center / cover;
+    position: relative;
+    z-index: 999;
+}
+
+footer:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: .93;
+    z-index: -1;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.footer-logo {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.footer-widget p {
+    color: #888;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.footer-widget h3 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 1.375rem;
+}
+
+.footer-widget ul {
+    padding: 0;
+}
+
+.footer-widget li {
+    display: block;
+}   
+
+.footer-widget ul li a {
+    display: block;
+    color: #888;
+    line-height: 38px;
+    font-size: 14px;
+    text-transform: Capitalize;
+}
+
+.footer-widget li a i {
+    width: 25px;
+}
+
+.company p {
+    color: #888;
+    font-size: 16px;
+    position: relative;
+    float: right;
+}
+
+.company p span {
+    color: #21c87a;
+}
+
+/*#################################### FOOTER #################################*/
+
+
+
